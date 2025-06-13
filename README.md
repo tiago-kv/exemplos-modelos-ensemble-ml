@@ -20,4 +20,45 @@ Não perca nenhum post da série! Acompanhe as publicações originais e aprofun
 
 ## 📂 Estrutura do Repositório
 
-Cada pasta corresponde a um tópico ou post da série e contém os códigos Python demonstrados:
+Cada pasta corresponde a um tópico ou post da série e contém os códigos Python demonstrados:                                                                   
+## 🛠️ Como Rodar os Códigos
+
+Para rodar os exemplos em sua máquina:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SeuUsuarioGitHub/seu-repositorio-ml-ensemble.git](https://github.com/SeuUsuarioGitHub/seu-repositorio-ml-ensemble.git)
+    cd seu-repositorio-ml-ensemble
+    ```
+    *(Lembre-se de substituir `SeuUsuarioGitHub/seu-repositorio-ml-ensemble.git` pelo seu usuário e nome real do repositório)*
+
+2.  **Crie e ative um ambiente virtual (recomendado):**
+    ```bash
+    python -m venv venv
+    # No Windows:
+    .\venv\Scripts\activate
+    # No macOS/Linux:
+    source venv/bin/activate
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    pip install pandas numpy scikit-learn
+    ```
+
+4.  **Execute os scripts:**
+    Navegue até a pasta do exemplo desejado e execute o arquivo Python:
+    ```bash
+    cd 02-Bagging
+    python random_forest_example.py
+    ```
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para abrir issues caso encontre problemas ou tenha sugestões de melhoria para os códigos ou explicações.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+---
