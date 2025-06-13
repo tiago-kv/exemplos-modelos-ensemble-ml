@@ -1,0 +1,29 @@
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import pandas as pd
+import numpy as np
+
+# Configuração da semente para reprodutibilidade
+np.random.seed(42)
+
+# Criação de dados de exemplo
+X = pd.DataFrame(np.random.rand(100, 5), columns=[f'feature_{i}' for i in range(5)])
+y = pd.Series(np.random.randint(0, 2, 100))
+
+# Divisão dos dados em treino e teste
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Criação do modelo Random Forest
+# n_estimators define o número de árvores no ensemble
+rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+
+# Treinamento do modelo
+rf_model.fit(X_train, y_train)
+
+# Predições
+y_pred = rf_model.predict(X_test)
+
+# Avaliação da performance
+accuracy = accuracy_score(y_test, y_pred)
+print(f'Precisão do modelo Random Forest: {accuracy:.4f}')
