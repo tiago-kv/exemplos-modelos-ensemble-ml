@@ -1,0 +1,18 @@
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Criando dados fictícios
+X, y = make_classification(n_samples=1000, n_features=20, random_state=42)
+
+# Dividindo em treino e teste
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Treinando modelo Boosting
+model = GradientBoostingClassifier()
+model.fit(X_train, y_train)
+
+# Avaliando performance
+y_pred = model.predict(X_test)
+print("Acurácia:", accuracy_score(y_test, y_pred))
