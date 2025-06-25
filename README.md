@@ -16,7 +16,7 @@ Não perca nenhum post da série! Acompanhe as publicações originais e aprofun
 
 * **Post 1: Introdução aos Modelos Ensemble**: [Link para o Post 1](https://www.linkedin.com/feed/update/urn:li:activity:7336518449797464064/)
 * **Post 2: Bagging: Estabilidade e Confiabilidade no Machine Learning**: [Link para o Post 2](https://www.linkedin.com/posts/tiago-valaski_bagging-a-t%C3%A9cnica-que-transforma-modelos-activity-7339378908603035648-tTfa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9Bc58Bz_Q_v7MsbbhHEA__1LSAbZuLIg8)
-* **Post 3: Boosting para Modelos Fortes!**: [Link para o Post 3](https://www.linkedin.com/posts/tiago-valaski_bagging-a-t%C3%A9cnica-que-transforma-modelos-activity-7339378908603035648-tTfa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9Bc58Bz_Q_v7MsbbhHEA__1LSAbZuLIg8)
+* **Post 3: Boosting para Modelos Fortes!**: [Link para o Post 3](https://www.linkedin.com/posts/tiago-valaski_decifrado-modelos-ensemble-parte-3-boosting-activity-7343708843660431361-Pc2z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9Bc58Bz_Q_v7MsbbhHEA__1LSAbZuLIg8)
 
 ## 📂 Estrutura do Repositório
 
